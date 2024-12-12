@@ -7,9 +7,6 @@ def fibonacci(n):
         return 1
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
-    
-    if __name__ == "__main__":
-        print(fibonacci(250))
 
 def is_prime(n):
     if not isinstance(n, int) or n <= 1:
@@ -20,7 +17,5 @@ def is_prime(n):
     return True
 
     if __name__ == "__main__":
+        print(fibonacci(250))
         print(is_prime(97))
-
-print(fibonacci(255))
-print(is_prime(5))
