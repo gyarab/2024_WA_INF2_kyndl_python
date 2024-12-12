@@ -10,3 +10,14 @@ def fibonacci(n):
     
     if __name__ == "__main__":
         print(fibonacci(250))
+
+def is_prime(n):
+    if not isinstance(n, int) or n < 2:
+        raise ValueError("Input must be an integer greater than or equal to 2.")
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+    if __name__ == "__main__":
+        print(is_prime(97))
