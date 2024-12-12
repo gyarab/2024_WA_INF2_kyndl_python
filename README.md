@@ -1,1 +1,10 @@
-# 2024_WA_INF2_KYNDL_Pyton
+# Dakynuv pyťon
+
+Pythoník uwu
+
+## Nejelpší týmy na světě
+ - Bohemka
+ - Chelsea
+ - Barcelona
+ - Montreal
+ - Red Bull F1
