@@ -1,4 +1,3 @@
-import string
 
 def fibonacci(n):
     if not isinstance(n, int) or n < 0:
@@ -35,8 +34,6 @@ def split_into_threes(text):
 def caesar_encode(text):
     if not isinstance(text, str):
         raise ValueError("Input must be a string.")
-    if any(char not in string.ascii_letters for char in text):
-        raise ValueError("Input must contain only English alphabet letters.")
     return "".join([chr(ord(x) + 3) for x in text])
 
     
