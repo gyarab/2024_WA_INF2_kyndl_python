@@ -31,7 +31,7 @@ def split_into_threes(text):
     chunks = [text[i:i+3] for i in range(0, len(text), 3)]
     if len(chunks[-1]) < 3:
         chunks[-1] = chunks[-1].ljust(3)
-    return chunks
+    return [chunk for chunk in chunks if len(chunk) > 1]
 
     if __name__ == "__main__":
         print(fibonacci(250))
