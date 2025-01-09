@@ -1,3 +1,5 @@
+import string
+
 def fibonacci(n):
     if not isinstance(n, int) or n < 0:
         raise ValueError("Input must be a non-negative integer.")
@@ -30,9 +32,25 @@ def split_into_threes(text):
         raise ValueError("Input must be a string.")
     return [text[i:i+3] for i in range(0, len(text), 3)]
 
+def caesar_encode(text):
+    if not isinstance(text, str):
+        raise ValueError("Input must be a string.")
+    if any(char not in string.ascii_letters for char in text):
+        raise ValueError("Input must contain only English alphabet letters.")
+    return "".join([chr(ord(x) + 3) for x in text])
 
-    if __name__ == "__main__":
-        print(fibonacci(250))
-        print(is_prime(97))
-        print(primes_in_range(1, 50))
-        print(split_into_threes("abcdefgh"))
+    
+
+def caesar_decode(text):
+    if not isinstance(text, str):
+        raise ValueError("Input must be a string.")
+    if any(char not in string.ascii_letters for char in text):
+        raise ValueError("Input must contain only English alphabet letters.")
+    return "".join([chr(ord(x) - 3) for x in text])
+
+if __name__ == "__main__":
+    print(fibonacci(250))
+    print(is_prime(97))
+    print(primes_in_range(1, 50))
+    print(split_into_threes("abcdefgh"))
+    print(caesar_decode("Bohemians"))
