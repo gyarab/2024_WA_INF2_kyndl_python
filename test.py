@@ -53,4 +53,5 @@ if __name__ == "__main__":
     print(is_prime(97))
     print(primes_in_range(1, 50))
     print(split_into_threes("abcdefgh"))
+    print(caesar_encode("Zebra"))
     print(caesar_decode("Bohemians"))
