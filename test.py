@@ -16,6 +16,14 @@ def is_prime(n):
             return False
     return True
 
+def primes_in_range(a,b):
+    if not isinstance(a, int) or not isinstance(b, int) or a < 0 or b < 0:
+        raise ValueError("Inputs must be non-negative integers.")
+    if a > b:
+        a, b = b, a
+    return [x for x in range(a, b + 1) if is_prime(x)]
+    
     if __name__ == "__main__":
         print(fibonacci(250))
         print(is_prime(97))
+        print(primes_in_range(1, 50))
