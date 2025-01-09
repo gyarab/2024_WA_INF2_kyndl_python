@@ -28,13 +28,11 @@ def primes_in_range(a,b):
 def split_into_threes(text):
     if not isinstance(text, str):
         raise ValueError("Input must be a string.")
-    chunks = [text[i:i+3] for i in range(0, len(text), 3)]
-    if len(chunks[-1]) < 3:
-        chunks[-1] = chunks[-1].ljust(3)
-    return [chunk for chunk in chunks if len(chunk) > 1]
+    return [text[i:i+3] for i in range(0, len(text), 3)]
+
 
     if __name__ == "__main__":
         print(fibonacci(250))
         print(is_prime(97))
         print(primes_in_range(1, 50))
-        print(split_into_threes("abcdefghij"))
+        print(split_into_threes("abcdefgh"))
