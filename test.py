@@ -23,7 +23,7 @@ def primes_in_range(a,b):
         a, b = b, a
     if a == b:
         return []
-    return [x for x in range(a, b + 1) if is_prime(x)]
+    return [x for x in range(a, b + 1) if is_prime(x)] 
     
     if __name__ == "__main__":
         print(fibonacci(250))
