@@ -25,7 +25,7 @@ def primes_in_range(a,b):
         return []
     return [x for x in range(a, b + 1) if is_prime(x)] 
 
-def slip_into_threes(text):
+def split_into_threes(text):
     if not isinstance(text, str):
         raise ValueError("Input must be a string.")
     chunks = [text[i:i+3] for i in range(0, len(text), 3)]
@@ -37,4 +37,4 @@ def slip_into_threes(text):
         print(fibonacci(250))
         print(is_prime(97))
         print(primes_in_range(1, 50))
-        print(slip_into_threes("abcdefghij"))
+        print(split_into_threes("abcdefghij"))
