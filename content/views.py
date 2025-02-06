@@ -40,3 +40,6 @@ def homepage(request):
 
     ret += "</ul></body></html>"
     return HttpResponse(ret)
+
+def hello(request):
+    return HttpResponse('Hello, World!')
