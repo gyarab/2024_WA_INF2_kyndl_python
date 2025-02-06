@@ -3,17 +3,16 @@ from django.http import HttpResponse
 
 import requests
 
-data = [
-    {
-        'title': 'Python Django Tutorial',
-        'url': 'https://www.youtube.com/watch?v=F5mRW0jo-U4',
-    },
-    {
-        'title': 'Bohemians 1905',
-        'url': 'https://www.bohemians.cz/',
-
-    }
-]
+# data = [
+#     {
+#         'title': 'web Gymnazia Arabska',
+#         'link': 'https://gyarab.cz',
+#     },
+#     {
+#         'title': 'web jutub',
+#         'link': 'https://youtube.com',
+#     },
+# ]
 
 def homepage(request):
     ret = '''
@@ -24,10 +23,19 @@ def homepage(request):
     <ul>
     '''
 
+    url = 'https://kf-ga.github.io/_downloads/55747ce1b3aa6fea6b8a71e2b55912de/articles.json'
+    res = requests.get(url)
+    res.raise_for_status()
+    data = res.json()
+
     for i in data:
         ret += f"""
         <li>
-            <a href="{i['url']}">{i['title']}</a>
+            {i['category']} <a href="{i['link']}">
+                {i['title']}
+            </a><br>
+            <img src="{i['image']}">
+            <p>{i['perex']}</p>
         </li>"""
 
     ret += "</ul></body></html>"
