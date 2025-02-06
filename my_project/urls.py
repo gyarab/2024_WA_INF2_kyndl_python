@@ -1,5 +1,5 @@
 """
-URL configuration for my_project project.
+URL configuration for cms project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -16,13 +16,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from content.views import homepage
-from content.views import hello
-from content.views import vynasob
+import content.views
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', homepage),
-    path('hello/<str:name>/', hello),
-    path('vynasob/<int:a>/<int:b>', vynasob),
+    path('', content.views.homepage),
+    path('article/<int:id>/', content.views.article),
+
+    path('hello/<str:name>/', content.views.hello),
+    path('vynasob/<int:a>/<int:b>', content.views.vynasob),
+
 ]
