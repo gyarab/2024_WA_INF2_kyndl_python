@@ -43,3 +43,6 @@ def homepage(request):
 
 def hello(request, name):
     return HttpResponse(f'Ahoj {name}')
+
+def vynasob(request, a, b):
+    return HttpResponse(f'{a} * {b} = {a * b}')

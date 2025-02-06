@@ -18,9 +18,11 @@ from django.contrib import admin
 from django.urls import path
 from content.views import homepage
 from content.views import hello
+from content.views import vynasob
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', homepage),
     path('hello/<str:name>/', hello),
+    path('vynasob/<int:a>/<int:b>', vynasob),
 ]
