@@ -1,6 +1,12 @@
-{% extends 'base.html' %} {% block content %}
-<h2>{{ article.title }}</h2>
-<img src="{{ article.image }}" alt="{{ article.title }}">
-<p>{{ article.perex }}</p>
-<a href="{% url 'homepage' %}">Zpět na úvodní stránku</a>
+{% extends "content/base.html" %}
+
+
+{% block header %}
+    {{ article.title }}
+{% endblock %}
+
+{% block main %}
+    <img src="{{ article.image }}" alt="{{ article.title }}">
+    <p>{{ article.perex }}</p>
+    <p>{{ article.author }}</p>
 {% endblock %}

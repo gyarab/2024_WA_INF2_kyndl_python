@@ -1,6 +1,14 @@
-{% extends 'base.html' %} {% block content %}
-{% for article in articles %}
-    <img src="{{ article.image }}" alt="{{ article.title }}">
-{% endfor %}
+{% extends "content/base.html" %}
 
+
+{% block header %}
+    Zpravy odevsad
+{% endblock %}
+
+
+{% block main %}
+    {% for article in articles %}
+        <a href="/article/{{ forloop.counter0 }}"><h2>{{ article.title }}</h2></a>
+        <p>{{ article.perex }}</p>
+    {% endfor %}
 {% endblock %}
