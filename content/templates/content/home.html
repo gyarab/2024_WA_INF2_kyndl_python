@@ -1,14 +1,66 @@
 {% extends "content/base.html" %}
 
-
 {% block header %}
-    Zpravy odevsad
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+        .header {
+            font-family: 'Comic Neue', cursive;
+        }
+    </style>
+    <div class="header">Dakyn shop</div>
 {% endblock %}
 
-
 {% block main %}
-    {% for article in articles %}
-        <a href="/article/{{ forloop.counter0 }}"><h2>{{ article.title }}</h2></a>
-        <p>{{ article.perex }}</p>
-    {% endfor %}
+    <style>
+        body {
+            background-color: #d4edda; /* Light green background */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .articles-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+        .article {
+            width: 200px; 
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            color: inherit;
+        }
+        .article:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .article-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .article h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .article p {
+            font-size: 1.2em;
+            color: #333;
+        }
+    </style>
+    <div class="articles-container">
+        {% for article in articles %}
+            <a href="/article/{{ forloop.counter0 }}" class="article">
+                <h2>{{ article.název }}</h2>
+                <img class="article-image" src="{{ article.obrázek }}" alt="{{ article.název }}">
+                <p>{{ article.cena }}</p>
+            </a>
+        {% endfor %}
+    </div>
 {% endblock %}
