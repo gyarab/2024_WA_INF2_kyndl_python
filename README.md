@@ -1,8 +1,5 @@
 # 2024_WA_INF2_kyndl_python
 
-## Popis projektu
-Tento projekt je vytvořen pro kurz INF2 a obsahuje různé úlohy a příklady v jazyce Python.
-
 ## Požadavky
 Pro spuštění tohoto projektu budete potřebovat následující software:
 - Python 3.8 nebo novější
