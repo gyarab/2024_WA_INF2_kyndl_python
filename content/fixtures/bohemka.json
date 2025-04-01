@@ -8,7 +8,7 @@
             "obrazek": "https://media.npr.org/assets/img/2018/12/10/roger-the-kangaroo-sanctuary-alice-springs-2_custom-23e77a11f31c4688c8557f5993d2b4af0b6d52db.jpg?s=300&c=85&f=webp",
             "odkaz": "https://www.npr.org/2018/12/10/675282745/roger-the-buff-kangaroo-beloved-online-dies-at-age-12",
             "category": 2,
-            "type": [1, 2]
+            "type": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
         }
     },
     {
@@ -44,7 +44,7 @@
             "obrazek": "https://www.fanshopbohemians.cz/pictures/B1905/19/2000000326/4069_TP.B1905.JPG",
             "odkaz": "https://www.fanshopbohemians.cz/panska-kolekce_c10024453669018/tricko-panske-bohemka-1905_p4069",
             "category": 2,
-            "type": [3]
+            "type": [3, 10]
         }
     },
     {
@@ -56,7 +56,7 @@
             "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5114-tricko%20panske%20klokani%20sede).png",
             "odkaz": "https://www.fanshopbohemians.cz/panska-kolekce_c10024453669018/tricko-panske-klokani-sede_p5114",
             "category": 2,
-            "type": [3]
+            "type": [3, 10]
         }
     },
     {
@@ -68,7 +68,7 @@
             "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/2136-sala%20bohemians%201.png",
             "odkaz": "https://www.fanshopbohemians.cz/saly_c10024453670205/sala-bohemians_p2136",
             "category": 2,
-            "type": [4]
+            "type": [4, 11]
         }
     },
     {
@@ -80,7 +80,7 @@
             "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5889-bunda%20panska%20collage.png",
             "odkaz": "https://www.fanshopbohemians.cz/panska-kolekce_c10024453669018/panske-mikiny_c35416300323555/bunda-college-cerna-bohemians_p5889",
             "category": 2,
-            "type": [5]
+            "type": [5, 10]
         }
     },
     {
@@ -92,7 +92,7 @@
             "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5616-cyklodres%20svisle%20pruhy%20zeleny%20predni.png",
             "odkaz": "https://www.fanshopbohemians.cz/dresy-a-fotbalova-vybava_c10024453668866/cyklodres-svisle-pruhy-bohemians-praha-1905_p5616",
             "category": 2,
-            "type": [6, 1]
+            "type": [1, 6]
         }
     },
     {
@@ -104,7 +104,7 @@
             "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5612-klokan%20plysovy%20v%20dresu.png",
             "odkaz": "https://www.fanshopbohemians.cz/doplnky-dle-tema_c35433480192033/domov_c35433480192034/klokan-plysovy-v-dresiku-25cm_p5612",
             "category": 2,
-            "type": [7]
+            "type": [7, 12]
         }
     },
     {
@@ -116,7 +116,7 @@
             "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5726-ksiltovka%20vintage%20bohemians.png",
             "odkaz": "https://www.fanshopbohemians.cz/cepice_c10024453670124/ksiltovky_c10024453670175/ksiltovka-dospela-vintage-bohemians-praha-1905_p5726",
             "category": 2,
-            "type": [8]
+            "type": [8, 10, 11]
         }
     },
     {
@@ -128,7 +128,7 @@
             "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/4176-sala%20ckd%201.png",
             "odkaz": "https://www.fanshopbohemians.cz/saly_c10024453670205/sala-ckd_p4176",
             "category": 2,
-            "type": [4]
+            "type": [4, 11]
         }
     },
     {
@@ -140,7 +140,7 @@
             "obrazek": "https://www.fanshopbohemians.cz/pictures/B1905/19/2000000325/5276_BO.CEPAFK1.JPG",
             "odkaz": "https://www.fanshopbohemians.cz/cepice_c10024453670124/kulich-afk-vrsovice-zeleny_p5276",
             "category": 2,
-            "type": [9]
+            "type": [9, 10, 11]
         }
     },
     {

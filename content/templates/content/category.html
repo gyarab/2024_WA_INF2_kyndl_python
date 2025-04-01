@@ -81,7 +81,7 @@
 <p>{{category.popis}}</p>
 <div class="article-container">
     {% for article in category.articles.all %}
-        <a href="/article/{{ article.id }}" + 1 class="article">
+        <a href="/article/{{ article.id }}" class="article">
             <img class="article-image" src="{{ article.obrazek }}" alt="{{ article.nazev }}">
             <div class="article-details">
                 <h2>{{ article.nazev }}</h2>
