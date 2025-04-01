@@ -6,8 +6,8 @@ import requests
 import json
 
 def homepage(request):
-    articles = Bohemka.objects.order_by('title')
-    return render(request, 'content/homepage.html', {'articles': articles})
+    articles = Bohemka.objects.order_by('id')
+    return render(request, 'content/home.html', {'articles': articles})
 
 def article(request, id):
     article = Bohemka.objects.get(pk=id)

@@ -20,8 +20,8 @@
             padding: 20px;
         }
         .article-image {
-            width: 200px;
-            height: auto;
+            width: 400px;
+            height: 400px;
             border-radius: 10px;
         }
         .article-details {
@@ -31,7 +31,7 @@
         }
         .article-details p {
             font-size: 1.2em;
-            color: #333;
+            color: #000000;
         }
         .back-button {
             display: inline-block;
@@ -48,9 +48,15 @@
         }
     </style>
     <div class="article-container">
-        <img class="article-image" src="{{ article.obrázek }}" alt="{{ article.název }}">
+        <img class="article-image" src="{{ article.obrazek }}" alt="{{ article.nazev }}">
         <div class="article-details">
-            <p><strong>{{ article.název }}</strong></p>
+            <p><strong>{{ article.nazev }}</strong></p>
+            <p><a href="/category/{{ article.category.id }}">{{ article.category.nazev }}</a></p>
+                <ul>
+                    {% for type in article.type.all %}
+                        <li><a href="/type/{{ type.id }}">{{ type.nazev }}</a></li>
+                    {% endfor %}
+                </ul>
             <p>{{ article.cena }}</p>
             <a href="{{ article.odkaz }}">Odkaz na stránky fanshop Bohemians tohoto produktu</a>
             <a class="back-button" href="javascript:history.back()">Go Back</a>

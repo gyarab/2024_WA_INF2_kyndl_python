@@ -1,0 +1,94 @@
+{% extends "content/base.html" %}
+
+
+{% block header %}
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+    .header {
+        font-family: 'Comic Neue', cursive;
+    }
+</style>
+<div class="header">{{category.nazev}}</div>    
+{% endblock %}
+
+{% block main %}
+<style>
+    body {
+        background-color: #d4edda; 
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .article-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+    .article {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #ffffff;
+        text-decoration: none;
+        color: inherit;
+    }
+    .article:hover {
+        background-color: #f8f9fa;
+    }
+    .article-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    .article-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .article-details h2 {
+        margin: 0;
+        font-size: 1.5em;
+        color: #000000;
+    }
+    .article-details p {
+        margin: 5px 0 0;
+        font-size: 1.2em;
+        color: #000000;
+    }
+    .back-button {
+        display: block;
+        margin: 40px auto;
+        padding: 15px 30px;
+        background-color: #0062cb;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+        font-size: 1.5em;
+        text-align: center;
+        transition: background-color 0.3s;
+        width: fit-content;
+    }
+    .back-button:hover {
+        background-color: #0056b3;
+    }
+</style>
+<p>{{category.popis}}</p>
+<div class="article-container">
+    {% for article in category.articles.all %}
+        <a href="/article/{{ article.id }}" + 1 class="article">
+            <img class="article-image" src="{{ article.obrazek }}" alt="{{ article.nazev }}">
+            <div class="article-details">
+                <h2>{{ article.nazev }}</h2>
+                <p>{{ article.cena }}</p>
+            </div>
+        </a>
+    {% endfor %}
+</div>
+<a class="back-button" href="javascript:history.back()">Go Back</a>
+{% endblock %}

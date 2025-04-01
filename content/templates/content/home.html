@@ -57,9 +57,9 @@
     <div class="articles-container">
         {% for article in articles %}
             <a href="/article/{{ forloop.counter0 }}" class="article">
-                <h2>{{ article.název }}</h2>
-                <img class="article-image" src="{{ article.obrázek }}" alt="{{ article.název }}">
-                <p>{{ article.cena }}</p>
+                <h2>{{ article.nazev }}</h2>
+                <img class="article-image" src="{{ article.obrazek }}" alt="{{ article.nazev }}">
+                <p>{{ article.cena }}Kč</p>
             </a>
         {% endfor %}
     </div>
