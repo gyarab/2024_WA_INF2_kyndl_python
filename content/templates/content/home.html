@@ -8,6 +8,7 @@
             text-align: center;
             font-size: 2em;
             font-weight: bold;
+            color: white;
         }
     </style>
     <div class="header">Dakynuv shop</div>
@@ -16,7 +17,7 @@
 {% block main %}
     <style>
         body {
-            background-color: #d4edda; /* Light green background */
+            background-color: rgb(0, 0, 119);
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -24,9 +25,12 @@
         .articles-container {
             display: flex;
             flex-wrap: wrap;
-            gap: 20px;
+            gap: 40px;
             justify-content: center;
-            padding: 20px;
+            padding: 40px;
+        }
+        .article {
+            flex-basis: 100%;
         }
         .article {
             width: 100%; 
@@ -38,13 +42,17 @@
             transition: transform 0.3s, box-shadow 0.3s;
             text-decoration: none;
             color: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
         }
         .article:hover {
             transform: translateY(-10px);
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
         .article-image {
-            width: 100%;
+            width: 15%;
             height: auto;
             border-radius: 10px;
         }
@@ -59,27 +67,27 @@
         
         @media (min-width: 576px) {
             .article {
-            width: 45%;
+                width: 45%;
             }
         }
         
         @media (min-width: 768px) {
             .article {
-            width: 30%;
+                width: 30%;
             }
         }
         
         @media (min-width: 992px) {
             .article {
-            width: 22%;
+                width: 22%;
             }
         }
     </style>
     <div class="articles-container">
         {% for article in articles %}
             <a href="/article/{{ article.id }}" class="article">
-                <h2>{{ article.nazev }}</h2>
                 <img class="article-image" src="{{ article.obrazek }}" alt="{{ article.nazev }}">
+                <h2>{{ article.nazev }}</h2>
                 <p>{{ article.cena }}Kč</p>
             </a>
         {% endfor %}
