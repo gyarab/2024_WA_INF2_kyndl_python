@@ -16,7 +16,7 @@ class Type(models.Model):
 
 class Bohemka(models.Model):
     nazev = models.CharField(max_length=100)
-    obrazek = models.URLField()
+    obrazek = models.URLField(max_length=500)
     category = models.ForeignKey(Category, related_name='articles', on_delete=models.CASCADE)
     type = models.ManyToManyField(Type, related_name='articles')
 
