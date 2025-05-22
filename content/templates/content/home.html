@@ -11,7 +11,7 @@
             color: white;
         }
     </style>
-    <div class="header">Dakynuv shop</div>
+    <div class="header">Dakyn's shop</div>
 {% endblock %}
 
 {% block main %}
@@ -64,6 +64,11 @@
             font-size: 1.2em;
             color: #333;
         }
+
+        .article-category {
+            font-size: 200%;
+            margin-top: 5px;
+        }
         
         @media (min-width: 576px) {
             .article {
@@ -85,11 +90,11 @@
     </style>
     <div class="articles-container">
         {% for article in articles %}
-            <a href="/article/{{ article.id }}" class="article">
-                <img class="article-image" src="{{ article.obrazek }}" alt="{{ article.nazev }}">
-                <h2>{{ article.nazev }}</h2>
-                <p>{{ article.cena }}Kč</p>
-            </a>
+        <a href="/article/{{ article.id }}" class="article">
+            <img class="article-image" src="{{ article.obrazek }}" alt="{{ article.nazev }}">
+            <h2>{{ article.nazev }}</h2>
+            <span class="article-category">{{ article.category.nazev }}</span>
+        </a>
         {% endfor %}
         <div id="klikz-19"></div>
     <script src="https://klikz.svs.gyarab.cz/hit/19?front=ffffff&back=4bdd55"></script>

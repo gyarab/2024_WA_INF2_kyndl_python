@@ -1,307 +1,338 @@
 [
     {
-        "model": "content.bohemka",
-        "pk": 1,
-        "fields": {
-            "nazev": "Klokan",
-            "cena": "9999.00",
-            "obrazek": "https://media.npr.org/assets/img/2018/12/10/roger-the-kangaroo-sanctuary-alice-springs-2_custom-23e77a11f31c4688c8557f5993d2b4af0b6d52db.jpg?s=300&c=85&f=webp",
-            "odkaz": "https://www.npr.org/2018/12/10/675282745/roger-the-buff-kangaroo-beloved-online-dies-at-age-12",
-            "category": 2,
-            "type": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-        }
+            "model": "content.bohemka",
+            "pk": 1,
+            "fields": {
+                    "nazev": "THE Kangaroo",
+                    "obrazek": "https://media.npr.org/assets/img/2018/12/10/roger-the-kangaroo-sanctuary-alice-springs-2_custom-23e77a11f31c4688c8557f5993d2b4af0b6d52db.jpg?s=300&c=85&f=webp",
+                    "category": 3,
+                    "type": [3, 4]
+            }
     },
     {
-        "model": "content.bohemka",
-        "pk": 2,
-        "fields": {
-            "nazev": "Domácí dres Bohemians Praha 1905",
-            "cena": "1905",
-            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5784-dres_domaci_24-25.jpg",
-            "odkaz": "https://www.fanshopbohemians.cz/puma-by-bohemians_c33857227194435/dres-novy-dospely-domaci-zelenobily-24-25_p5784",
-            "category": 1,
-            "type": [1, 2]
-        }
+            "model": "content.bohemka",
+            "pk": 2,
+            "fields": {
+                    "nazev": "Dolicek",
+                    "obrazek": "https://th.bing.com/th/id/R.f2534852741f5d9815dd503188b30307?rik=c71uVQCqSKgp2g&riu=http%3a%2f%2fstadiumdb.com%2fpictures%2fstadiums%2fcze%2fdolicek_stadion%2fdolicek_stadion09.jpg&ehk=HUQjGviflNdt9%2fkXIGmQ36rq2FrNWMi5FvO2STzmAQw%3d&risl=&pid=ImgRaw&r=0",
+                    "category": 4,
+                    "type": [4]
+            }
     },
     {
-        "model": "content.bohemka",
-        "pk": 3,
-        "fields": {
-            "nazev": "Venkovní dres Bohemians Praha 1905",
-            "cena": "1905",
-            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5145-dres%20venkovni_%20c_erny_%20pr_edni_.png",
-            "odkaz": "https://www.fanshopbohemians.cz/puma-by-bohemians_c33857227194435/dres-dospely-rezervni-cerny-puma-23-24_p5145",
-            "category": 1,
-            "type": [1, 2]
-        }
+            "model": "content.bohemka",
+            "pk": 3,
+            "fields": {
+                    "nazev": "Bohemians Prague 1905",
+                    "obrazek": "https://th.bing.com/th/id/OIP.i-gFJc_YukSneB7lcd-FqQHaEo?rs=1&pid=ImgDetMain",
+                    "category": 5,
+                    "type": [1, 4]
+            }
     },
     {
-        "model": "content.bohemka",
-        "pk": 4,
-        "fields": {
-            "nazev": "Pánské tričko Bohemka 1905",
-            "cena": "449",
-            "obrazek": "https://www.fanshopbohemians.cz/pictures/B1905/19/2000000326/4069_TP.B1905.JPG",
-            "odkaz": "https://www.fanshopbohemians.cz/panska-kolekce_c10024453669018/tricko-panske-bohemka-1905_p4069",
-            "category": 2,
-            "type": [3, 10]
-        }
+            "model": "content.bohemka",
+            "pk": 4,
+            "fields": {
+                    "nazev": "Chelsea FC",
+                    "obrazek": "https://th.bing.com/th/id/R.b9501481a61b3e736ea85067050cd573?rik=NCG6XGwnBWg6Lg&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2016%2f11%2fchelsea-fc-logo-1.jpg&ehk=TMEz5GK9UCCymKPbfcO8PORSa%2fwADBeIeSGjULhQp%2bw%3d&risl=&pid=ImgRaw&r=0",
+                    "category": 4,
+                    "type": [1]
+            }
     },
     {
-        "model": "content.bohemka",
-        "pk": 5,
-        "fields": {
-            "nazev": "Pánské tričko Klokani šedé",
-            "cena": "269",
-            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5114-tricko%20panske%20klokani%20sede).png",
-            "odkaz": "https://www.fanshopbohemians.cz/panska-kolekce_c10024453669018/tricko-panske-klokani-sede_p5114",
-            "category": 2,
-            "type": [3, 10]
-        }
+            "model": "content.bohemka",
+            "pk": 5,
+            "fields": {
+                    "nazev": "FC Barcelona",
+                    "obrazek": "https://th.bing.com/th/id/R.76a00e882dd2e6857d191aece87c49aa?rik=6GTaDlQ%2fXnzpjw&riu=http%3a%2f%2fwallsdesk.com%2fwp-content%2fuploads%2f2016%2f07%2fFC-Barcelona-Download-Free-Backgrounds-HD.jpg&ehk=HY6mcIiz06kHv7ussToFbt6lu7BEL%2fInuTVJp0zpCmI%3d&risl=&pid=ImgRaw&r=0",
+                    "category": 4,
+                    "type": [1]
+            }
     },
     {
-        "model": "content.bohemka",
-        "pk": 6,
-        "fields": {
-            "nazev": "Šála Bohemians",
-            "cena": "399",
-            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/2136-sala%20bohemians%201.png",
-            "odkaz": "https://www.fanshopbohemians.cz/saly_c10024453670205/sala-bohemians_p2136",
-            "category": 2,
-            "type": [4, 11]
-        }
+            "model": "content.bohemka",
+            "pk": 6,
+            "fields": {
+                    "nazev": "Red Bull Racing",
+                    "obrazek": "https://www.hdcarwallpapers.com/walls/red_bull_racing_f1_hd-HD.jpg",
+                    "category": 3,
+                    "type": [1]
+            }
     },
     {
-        "model": "content.bohemka",
-        "pk": 7,
-        "fields": {
-            "nazev": "Bunda College Černá Bohemians",
-            "cena": "1399",
-            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5889-bunda%20panska%20collage.png",
-            "odkaz": "https://www.fanshopbohemians.cz/panska-kolekce_c10024453669018/panske-mikiny_c35416300323555/bunda-college-cerna-bohemians_p5889",
-            "category": 2,
-            "type": [5, 10]
-        }
+            "model": "content.bohemka",
+            "pk": 7,
+            "fields": {
+                    "nazev": "Kansas City Chiefs",
+                    "obrazek": "https://i.pinimg.com/originals/31/ee/33/31ee33d3cf6792cd6e7510e3a8797bb9.jpg",
+                    "category": 2,
+                    "type": [1]
+            }
     },
     {
-        "model": "content.bohemka",
-        "pk": 8,
-        "fields": {
-            "nazev": "Cyklodres Svislé Pruhy Bohemians Praha 1905",
-            "cena": "1799",
-            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5616-cyklodres%20svisle%20pruhy%20zeleny%20predni.png",
-            "odkaz": "https://www.fanshopbohemians.cz/dresy-a-fotbalova-vybava_c10024453668866/cyklodres-svisle-pruhy-bohemians-praha-1905_p5616",
-            "category": 2,
-            "type": [1, 6]
-        }
+            "model": "content.bohemka",
+            "pk": 8,
+            "fields": {
+                    "nazev": "Montreal Canadiens",
+                    "obrazek": "https://th.bing.com/th/id/R.72a38f1abc3c2cf49b5c68889f58c60b?rik=DrQJ6XBD16Xbjw&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f10%2f8%2fjztZJd.jpg&ehk=vHEewcSYKjQ%2fD%2fvHlPv1EzIxfmntHlInHTHsI7q0VFo%3d&risl=&pid=ImgRaw&r=0",
+                    "category": 4,
+                    "type": [1]
+            }
     },
     {
-        "model": "content.bohemka",
-        "pk": 9,
-        "fields": {
-            "nazev": "Klokan Plyšový v Dresíku 25cm",
-            "cena": "499",
-            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5612-klokan%20plysovy%20v%20dresu.png",
-            "odkaz": "https://www.fanshopbohemians.cz/doplnky-dle-tema_c35433480192033/domov_c35433480192034/klokan-plysovy-v-dresiku-25cm_p5612",
-            "category": 2,
-            "type": [7, 12]
-        }
+            "model": "content.bohemka",
+            "pk": 9,
+            "fields": {
+                    "nazev": "Novak Djokovic",
+                    "obrazek": "https://www.planetsport.com/image-library/og/1600/n/novak-djokovic-wimbledon.jpg",
+                    "category": 2,
+                    "type": [1]
+            }
     },
     {
-        "model": "content.bohemka",
-        "pk": 10,
-        "fields": {
-            "nazev": "Kšiltovka Dospělá Vintage Bohemians Praha 1905",
-            "cena": "499",
-            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5726-ksiltovka%20vintage%20bohemians.png",
-            "odkaz": "https://www.fanshopbohemians.cz/cepice_c10024453670124/ksiltovky_c10024453670175/ksiltovka-dospela-vintage-bohemians-praha-1905_p5726",
-            "category": 2,
-            "type": [8, 10, 11]
-        }
+            "model": "content.bohemka",
+            "pk": 10,
+            "fields": {
+                    "nazev": "Hamburger SV",
+                    "obrazek": "https://th.bing.com/th/id/OIP.ZOLkQL0UvBoCeugonsfZLwHaFa?rs=1&pid=ImgDetMain",
+                    "category": 3,
+                    "type": [1]
+            }
     },
     {
-        "model": "content.bohemka",
-        "pk": 11,
-        "fields": {
-            "nazev": "Šála ČKD",
-            "cena": "399",
-            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/4176-sala%20ckd%201.png",
-            "odkaz": "https://www.fanshopbohemians.cz/saly_c10024453670205/sala-ckd_p4176",
-            "category": 2,
-            "type": [4, 11]
-        }
+            "model": "content.bohemka",
+            "pk": 11,
+            "fields": {
+                    "nazev": "Stephen Bunting",
+                    "obrazek": "https://r.testifier.nl/Acbs8526SDKI/resizing_type:fit/watermark:Kieran%20Cleeves%2FPDC/width:3840/height:2560/plain/https://s3-newsifier.ams3.digitaloceanspaces.com/dartsnews.com/images/2024-12/stephen-bunting-3-675daa704090e.jpg@webp",
+                    "category": 4,
+                    "type": [1]
+            }
     },
     {
-        "model": "content.bohemka",
-        "pk": 12,
-        "fields": {
-            "nazev": "Kulich AFK Vršovice Zelený",
-            "cena": "349",
-            "obrazek": "https://www.fanshopbohemians.cz/pictures/B1905/19/2000000325/5276_BO.CEPAFK1.JPG",
-            "odkaz": "https://www.fanshopbohemians.cz/cepice_c10024453670124/kulich-afk-vrsovice-zeleny_p5276",
-            "category": 2,
-            "type": [9, 10, 11]
-        }
+            "model": "content.bohemka",
+            "pk": 12,
+            "fields": {
+                    "nazev": "Golden State Warriors",
+                    "obrazek": "https://th.bing.com/th/id/OIP.TdTmic6huRD0J6PHdYWo6AHaEK?rs=1&pid=ImgDetMain",
+                    "category": 1,
+                    "type": [1]
+            }
     },
     {
-        "model": "content.bohemka",
-        "pk": 13,
-        "fields": {
-            "nazev": "Pamětní list ve formě bankovky - Antonín Panenka 75 let",
-            "cena": "2000",
-            "obrazek": "https://www.fanshopbohemians.cz/pictures/B1905/19/2000000325/5504_OBAL.JPG",
-            "odkaz": "https://www.fanshopbohemians.cz/antonin-panenka_c32104880709024/pametni-list-ve-forme-bankovky-antonin-panenka-75-let_p5504",
-            "category": 2,
-            "type": [11]
-        }
+            "model": "content.bohemka",
+            "pk": 13,
+            "fields": {
+                    "nazev": "Curry on a Saturday night",
+                    "obrazek": "https://www.irelandbeforeyoudie.com/wp-content/uploads/2019/04/curry-chips.jpg",
+                    "category": 2,
+                    "type": [2, 3]
+            }
     },
     {
-        "model": "content.bohemka",
-        "pk": 14,
-        "fields": {
-            "nazev": "Box svačinový Bohemians",
-            "cena": "99",
-            "obrazek": "https://www.fanshopbohemians.cz/pictures/B1905/19/2000000326/4558_DSC00050%20(1).JPEG",
-            "odkaz": "https://www.fanshopbohemians.cz/doplnky-dle-tema_c35433480192033/skola_c35433480192035/box-svacinovy-bohemians_p4558",
-            "category": 2,
-            "type": [11]
-        }
+            "model": "content.bohemka",
+            "pk": 14,
+            "fields": {
+                    "nazev": "Pistachio Ice Cream",
+                    "obrazek": "https://th.bing.com/th/id/OIP.51q3FMk73wLzbDbIFCUECAHaHa?rs=1&pid=ImgDetMain",
+                    "category": 4,
+                    "type": [2]
+            }
     },
     {
-        "model": "content.bohemka",
-        "pk": 15,
-        "fields": {
-            "nazev": "Držák SPZ Bílý Bohemians 1905",
-            "cena": "119",
-            "obrazek": "https://www.fanshopbohemians.cz/pictures/B1905/19/2000000326/1372_BO.DB037.JPG",
-            "odkaz": "https://www.fanshopbohemians.cz/doplnky-dle-tema_c35433480192033/auto-moto_c35433480192037/drzak-spz-bily-bohemians-1905_p1372",
-            "category": 2,
-            "type": [11]
-        }
+            "model": "content.bohemka",
+            "pk": 15,
+            "fields": {
+                    "nazev": "Halusky s bryndzou",
+                    "obrazek": "https://www.tradicnirecepty.cz/www/files/recipe/201210/1833-5436-1350328882.jpg",
+                    "category": 4,
+                    "type": [2]
+            }
     },
     {
-        "model": "content.bohemka",
-        "pk": 16,
-        "fields": {
-            "nazev": "Ponožky Klasické Malí Klokani Zelené",
-            "cena": "129",
-            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5764-ponozky%20zelene%20nahled.png",
-            "odkaz": "https://www.fanshopbohemians.cz/damska-kolekce_c10024453669536/damske-ostatni_c35416300323563/ponozky-klasicke-mali-klokani-zelene_p5764",
-            "category": 2,
-            "type": [10]
-        }
+            "model": "content.bohemka",
+            "pk": 16,
+            "fields": {
+                    "nazev": "Texas Grander",
+                    "obrazek": "https://imageproxy.wolt.com/menu/menu-images/60a3a3913533848b3df9aa86/12598a10-d4ff-11ec-b463-76dd24a4b355_grander_636x400_wolt.jpg",
+                    "category": 3,
+                    "type": [2]
+            }
     },
     {
-        "model": "content.type",
-        "pk": 1,
-        "fields": {
-            "nazev": "Sportovní oblečení",
-            "popis": "Sportovní oblečení Bohemians Praha 1905 zahrnuje dresy, cyklodresy a další sportovní vybavení pro fanoušky."
-        }
-    }, 
+            "model": "content.bohemka",
+            "pk": 17,
+            "fields": {
+                    "nazev": "Pizza kapsa",
+                    "obrazek": "https://i1.oferomat.com/images/baa25a3d2ee91a0f3a0f611f3cedc621.jpg",
+                    "category": 2,
+                    "type": [2]
+            }
+    },
     {
-        "model": "content.type",
-        "pk": 2,
-        "fields": {
-            "nazev": "Dres",
-            "popis": "Dres je sportovní oblečení, které se nosí při sportovních aktivitách. Dresy Bohemians Praha 1905 jsou zelené a bílé barvy."
-        }
-    }, 
+            "model": "content.bohemka",
+            "pk": 18,
+            "fields": {
+                    "nazev": "Chilli con carne",
+                    "obrazek": "https://www.errenskitchen.com/wp-content/uploads/2019/02/Chili-con-carne-1200.jpg",
+                    "category": 3,
+                    "type": [2]
+            }
+    },
     {
-        "model": "content.type",
-        "pk": 3,
-        "fields": {
-            "nazev": "Tričko",
-            "popis": "Tričko je oblíbeným oblečením pro každodenní nošení. Trička Bohemians Praha 1905 jsou dostupná v různých barvách a designech."
-        }
-    }, 
+            "model": "content.bohemka",
+            "pk": 19,
+            "fields": {
+                    "nazev": "Monster White",
+                    "obrazek": "https://ohmyfacts.com/wp-content/uploads/2024/05/20-startling-facts-about-white-monster-energy-drink-1714616892.jpg",
+                    "category": 5,
+                    "type": [2]
+            }
+    },
     {
-        "model": "content.type",
-        "pk": 4,
-        "fields": {
-            "nazev": "Šála",
-            "popis": "Šála je oblíbeným doplňkem pro zahřátí krku. Šála Bohemians Praha 1905 je zelená a bílá."
-        }
-    }, 
+            "model": "content.bohemka",
+            "pk": 20,
+            "fields": {
+                    "nazev": "Gymnazium Arabska",
+                    "obrazek": "https://d48-a.sdn.cz/d_48/c_img_gT_h/d44g.jpeg?fl=res,600,,1,ffffff",
+                    "category": 3,
+                    "type": [5, 3]
+            }
+    },
     {
-        "model": "content.type",
-        "pk": 5,
-        "fields": {
-            "nazev": "Bunda",
-            "popis": "Bunda je teplým oblečením, které se nosí v chladném počasí. Bunda College Černá Bohemians je vhodná pro fanoušky Bohemians Praha 1905."
-        }
-    }, 
+            "model": "content.type",
+            "pk": 1,
+            "fields": {
+                    "nazev": "Sports",
+                    "popis": "These are the teams my bro adores"
+            }
+    },
     {
-        "model": "content.type",
-        "pk": 6,
-        "fields": {
-            "nazev": "Cyklodres",
-            "popis": "Cyklodres je sportovní oblečení pro cyklisty. Cyklodres Svislé Pruhy Bohemians Praha 1905 je zelený s bílými pruhy."
-        }
-    }, 
+            "model": "content.type",
+            "pk": 2,
+            "fields": {
+                    "nazev": "Food",
+                    "popis": "The scran bro loves"
+            }
+    },
     {
-        "model": "content.type",
-        "pk": 7,
-        "fields": {
-            "nazev": "Plyšák",
-            "popis": "Plyšák je oblíbenou hračkou pro děti i dospělé. Klokan Plyšový v Dresíku 25cm je plyšový klokan v dresu Bohemians Praha 1905."
-        }
-    }, 
+            "model": "content.type",
+            "pk": 3,
+            "fields": {
+                    "nazev": "Zesty shiz",
+                    "popis": "Just random shiz bro likes"
+            }
+    },
     {
-        "model": "content.type",
-        "pk": 8,
-        "fields": {
-            "nazev": "Kšiltovka",
-            "popis": "Kšiltovka je oblíbeným doplňkem pro ochranu hlavy před sluncem. Kšiltovka Dospělá Vintage Bohemians Praha 1905 je zelená s logem Bohemians."
-        }
-    }, 
+            "model": "content.type",
+            "pk": 4,
+            "fields": {
+                    "nazev": "Bohemians related",
+                    "popis": "Yea, if you didn't know, my bro is a bohemians fan"
+            }
+    },
     {
-        "model": "content.type",
-        "pk": 9,
-        "fields": {
-            "nazev": "Kulich",
-            "popis": "Kulich je teplým doplňkem pro ochranu hlavy v zimním období. Kulich AFK Vršovice Zelený je zelený s logem AFK Vršovice."
+            "model": "content.type",
+            "pk": 5,
+            "fields": {
+                    "nazev": "Gyarab",
+                    "popis": "This is just gyarab, no explanation needed"
+            }
+    },
+    {
+            "model": "content.type",
+            "pk": 6,
+            "fields": {
+                    "nazev": "",
+                    "popis": ""
+            }
+    },
+    {
+            "model": "content.type",
+            "pk": 7,
+            "fields": {
+                    "nazev": "",
+                    "popis": ""
+            }
+    },
+    {
+            "model": "content.type",
+            "pk": 8,
+            "fields": {
+                    "nazev": "",
+                    "popis": ""
+            }
+    },
+    {
+            "model": "content.type",
+            "pk": 9,
+            "fields": {
+                    "nazev": "",
+                    "popis": ""
+            }
+    },
+    {
+            "model": "content.type",
+            "pk": 10,
+            "fields": {
+                    "nazev": "",
+                    "popis": ""
+            }
+    },
+    {
+            "model": "content.type",
+            "pk": 11,
+            "fields": {
+                    "nazev": "",
+                    "popis": ""
+            }
+    },
+    {
+            "model": "content.type",
+            "pk": 12,
+            "fields": {
+                    "nazev": "",
+                    "popis": ""
+            }
+    },
+    {
+            "model": "content.category",
+            "pk": 1,
+            "fields": {
+                    "nazev": "⭐",
+                    "popis": "Good things, but not the best"
+            }
+    },
+    {
+            "model": "content.category",
+            "pk": 2,
+            "fields": {
+                    "nazev": "⭐⭐",
+                    "popis": "Like em, not really up there"
+            }
+    },
+    {
+            "model": "content.category",
+            "pk": 3,
+            "fields": {
+                    "nazev": "⭐⭐⭐",
+                    "popis": "These i love, but need to work their way up"
+            }
+    },
+    {
+            "model": "content.category",
+            "pk": 4,
+            "fields": {
+                    "nazev": "⭐⭐⭐⭐",
+                    "popis": "These are up there, the potential is clear"
+            }
+    },
+    {
+            "model": "content.category",
+            "pk": 5,
+            "fields": {
+                    "nazev": "⭐⭐⭐⭐⭐",
+                    "popis": "5 Big Booms of greatness, only the GOATs are in this category"
+            }
     }
-    },
-    {
-        "model": "content.type",
-        "pk": 10,
-        "fields": {
-            "nazev": "Oblečení",
-            "popis": "Oblečení Bohemians Praha 1905 zahrnuje dresy, trička, bundy a další oblečení pro fanoušky."
-        }
-    }, 
-    {
-        "model": "content.type",
-        "pk": 11,
-        "fields": {
-            "nazev": "Doplňky",
-            "popis": "Doplňky Bohemians Praha 1905 zahrnují šály, kšiltovky, kulichy a další doplňky pro fanoušky."
-        }
-    }, 
-    {
-        "model": "content.type",
-        "pk": 12,
-        "fields": {
-            "nazev": "Hračky",
-            "popis": "Hračky Bohemians Praha 1905 zahrnují plyšáky a další hračky pro děti i dospělé."
-        }
-    }, 
-    {
-        "model": "content.category",
-        "pk": 1,
-        "fields": {
-            "nazev": "Puma",
-            "popis": "Puma je známá značka sportovního oblečení a obuvi. Dresy Bohemians Praha 1905 jsou vyrobeny ve spolupráci se značkou Puma."
-        }
-    },
-    {
-        "model": "content.category",
-        "pk": 2,
-        "fields": {
-            "nazev": "Bohemians",
-            "popis": "Všechny produkty Bohemians Praha 1905 jsou navrženy s ohledem na fanoušky a jejich potřeby. Fanoušci mohou najít širokou škálu produktů, které reprezentují jejich oblíbený klub."
-        }
-    }
-
 ]

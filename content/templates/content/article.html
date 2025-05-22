@@ -7,32 +7,74 @@
 {% block main %}
     <style>
         body {
-            background-color: #d4edda; /* Light green background */
+            background-color: rgb(0, 0, 119);
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
         .article-container {
             display: flex;
-            flex-direction: row;
-            gap: 20px;
             justify-content: center;
-            padding: 20px;
+            align-items: center;
+            gap: 40px;
+            padding: 40px;
         }
-        .article-image {
-            width: 400px;
-            height: 400px;
+        .article {
+            width: 80%; 
+            border: 1px solid #ccc;
             border-radius: 10px;
-        }
-        .article-details {
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            color: inherit;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
-        .article-details p {
-            font-size: 1.2em;
-            color: #000000;
+        .article:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
+        .article-image {
+            width: 50%;
+            height: auto;
+
+            border-radius: 10px;
+        }
+        .article h2 {
+            font-size: 2em;
+            margin: 10px 0;
+        }
+        .article p {
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .article-category {
+            font-size: 300%;
+        }
+
+        .article-details{
+            width: 30%; 
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            font-size: 150%;
+            margin-top: 5px;
+        }
+
         .back-button {
             display: inline-block;
             margin-top: 20px;
@@ -46,19 +88,55 @@
         .back-button:hover {
             background-color: #0056b3;
         }
+
+        .article-details li {
+            background-color: rgb(0, 255, 42);
+            text-align: left;
+            list-style-type: none;
+            margin-bottom: 5px;
+            font-size: 1.2em;
+            display: inline-block;
+            border: 1px solid rgb(0, 0, 0);
+            padding: 5px;
+            border-radius: 5px;
+            margin-right: 5px;
+        }
+
+        .article-details a {
+            text-decoration: none;
+            
+        }
+        
+        @media (min-width: 576px) {
+            .article {
+                width: 60%;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .article {
+                width: 50%;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .article {
+                width: 40%;
+            }
+        }
     </style>
     <div class="article-container">
         <img class="article-image" src="{{ article.obrazek }}" alt="{{ article.nazev }}">
         <div class="article-details">
             <p><strong>{{ article.nazev }}</strong></p>
-            <p><a href="/category/{{ article.category.id }}">{{ article.category.nazev }}</a></p>
-                <ul>
-                    {% for type in article.type.all %}
-                        <li><a href="/type/{{ type.id }}">{{ type.nazev }}</a></li>
-                    {% endfor %}
-                </ul>
+            <div class="article-category">
+            <p><a href="/category/{{ article.category.id }}">{{ article.category.nazev }}</a></p></div>
+            <ul>
+                {% for type in article.type.all %}
+                    <li><a href="/type/{{ type.id }}">{{ type.nazev }}</a></li>
+                {% endfor %}
+            </ul>
             <p>{{ article.cena }}</p>
-            <a href="{{ article.odkaz }}">Odkaz na stránky fanshop Bohemians tohoto produktu</a>
             <a class="back-button" href="javascript:history.back()">Go Back</a>
         </div>
     </div>

@@ -14,7 +14,7 @@
 {% block main %}
 <style>
     body {
-        background-color: #d4edda; 
+        background-color: rgb(0, 0, 119);
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
@@ -37,6 +37,13 @@
         text-decoration: none;
         color: inherit;
     }
+
+    .article p {
+        margin: 5px 0 0;
+        font-size: 1.2em;
+        color: #ffffff;
+    }
+
     .article:hover {
         background-color: #f8f9fa;
     }
@@ -78,14 +85,13 @@
         background-color: #0056b3;
     }
 </style>
-<p>{{category.popis}}</p>
+<p style="font-size: 1.5em; color: #ffffff;">{{category.popis}}</p>
 <div class="article-container">
     {% for article in category.articles.all %}
         <a href="/article/{{ article.id }}" class="article">
             <img class="article-image" src="{{ article.obrazek }}" alt="{{ article.nazev }}">
             <div class="article-details">
                 <h2>{{ article.nazev }}</h2>
-                <p>{{ article.cena }}</p>
             </div>
         </a>
     {% endfor %}

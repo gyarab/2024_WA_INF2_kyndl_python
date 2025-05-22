@@ -6,6 +6,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
     .header {
         font-family: 'Comic Neue', cursive;
+        color: #ffffff;
     }
 </style>
 <div class="header">{{type.nazev}}</div>    
@@ -14,7 +15,7 @@
 {% block main %}
 <style>
     body {
-        background-color: #d4edda; /* Light green background */
+        background-color: rgb(0, 0, 119);
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
@@ -78,14 +79,13 @@
         background-color: #0056b3;
     }
 </style>
-<p>{{type.popis}}</p>
+<p style="font-size: 1.5em; color: #ffffff;">{{type.popis}}</p>
 <div class="article-container">
     {% for article in type.articles.all %}
         <a href="/article/{{ article.id }}" class="article">
             <img class="article-image" src="{{ article.obrazek }}" alt="{{ article.nazev }}">
             <div class="article-details">
                 <h2>{{ article.nazev }}</h2>
-                <p>{{ article.cena }}</p>
             </div>
         </a>
     {% endfor %}

@@ -1,94 +1,307 @@
 [
     {
-      "název": "Domácí dres Bohemians Praha 1905",
-      "cena": "1 905 Kč",
-      "obrázek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5784-dres_domaci_24-25.jpg",
-      "odkaz": "https://www.fanshopbohemians.cz/puma-by-bohemians_c33857227194435/dres-novy-dospely-domaci-zelenobily-24-25_p5784"
+        "model": "content.bohemka",
+        "pk": 1,
+        "fields": {
+            "nazev": "Klokan",
+            "cena": "9999.00",
+            "obrazek": "https://media.npr.org/assets/img/2018/12/10/roger-the-kangaroo-sanctuary-alice-springs-2_custom-23e77a11f31c4688c8557f5993d2b4af0b6d52db.jpg?s=300&c=85&f=webp",
+            "odkaz": "https://www.npr.org/2018/12/10/675282745/roger-the-buff-kangaroo-beloved-online-dies-at-age-12",
+            "category": 2,
+            "type": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+        }
     },
     {
-      "název": "Venkovní dres Bohemians Praha 1905",
-      "cena": "1 905 Kč",
-      "obrázek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5145-dres%20venkovni_%20c_erny_%20pr_edni_.png",
-      "odkaz": "https://www.fanshopbohemians.cz/puma-by-bohemians_c33857227194435/dres-dospely-rezervni-cerny-puma-23-24_p5145"
+        "model": "content.bohemka",
+        "pk": 2,
+        "fields": {
+            "nazev": "Domácí dres Bohemians Praha 1905",
+            "cena": "1905",
+            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5784-dres_domaci_24-25.jpg",
+            "odkaz": "https://www.fanshopbohemians.cz/puma-by-bohemians_c33857227194435/dres-novy-dospely-domaci-zelenobily-24-25_p5784",
+            "category": 1,
+            "type": [1, 2]
+        }
     },
     {
-      "název": "Pánské tričko Bohemka 1905",
-      "cena": "449 Kč",
-      "obrázek": "https://www.fanshopbohemians.cz/pictures/B1905/19/2000000326/4069_TP.B1905.JPG",
-      "odkaz": "https://www.fanshopbohemians.cz/panska-kolekce_c10024453669018/tricko-panske-bohemka-1905_p4069"
+        "model": "content.bohemka",
+        "pk": 3,
+        "fields": {
+            "nazev": "Venkovní dres Bohemians Praha 1905",
+            "cena": "1905",
+            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5145-dres%20venkovni_%20c_erny_%20pr_edni_.png",
+            "odkaz": "https://www.fanshopbohemians.cz/puma-by-bohemians_c33857227194435/dres-dospely-rezervni-cerny-puma-23-24_p5145",
+            "category": 1,
+            "type": [1, 2]
+        }
     },
     {
-        "název": "Pánské tričko Klokani šedé",
-        "cena": "269 Kč",
-        "obrázek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5114-tricko%20panske%20klokani%20sede).png",
-        "odkaz": "https://www.fanshopbohemians.cz/panska-kolekce_c10024453669018/tricko-panske-klokani-sede_p5114"
-      },
-
-    {
-      "název": "Šála Bohemians",
-      "cena": "399 Kč",
-      "obrázek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/2136-sala%20bohemians%201.png",
-      "odkaz": "https://www.fanshopbohemians.cz/saly_c10024453670205/sala-bohemians_p2136"
+        "model": "content.bohemka",
+        "pk": 4,
+        "fields": {
+            "nazev": "Pánské tričko Bohemka 1905",
+            "cena": "449",
+            "obrazek": "https://www.fanshopbohemians.cz/pictures/B1905/19/2000000326/4069_TP.B1905.JPG",
+            "odkaz": "https://www.fanshopbohemians.cz/panska-kolekce_c10024453669018/tricko-panske-bohemka-1905_p4069",
+            "category": 2,
+            "type": [3, 10]
+        }
     },
     {
-      "název": "Bunda College Černá Bohemians",
-      "cena": "1 399 Kč",
-      "obrázek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5889-bunda%20panska%20collage.png",
-      "odkaz": "https://www.fanshopbohemians.cz/panska-kolekce_c10024453669018/panske-mikiny_c35416300323555/bunda-college-cerna-bohemians_p5889"
+        "model": "content.bohemka",
+        "pk": 5,
+        "fields": {
+            "nazev": "Pánské tričko Klokani šedé",
+            "cena": "269",
+            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5114-tricko%20panske%20klokani%20sede).png",
+            "odkaz": "https://www.fanshopbohemians.cz/panska-kolekce_c10024453669018/tricko-panske-klokani-sede_p5114",
+            "category": 2,
+            "type": [3, 10]
+        }
     },
     {
-      "název": "Cyklodres Svislé Pruhy Bohemians Praha 1905",
-      "cena": "1799 Kč",
-      "obrázek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5616-cyklodres%20svisle%20pruhy%20zeleny%20predni.png",
-      "odkaz": "https://www.fanshopbohemians.cz/dresy-a-fotbalova-vybava_c10024453668866/cyklodres-svisle-pruhy-bohemians-praha-1905_p5616"
+        "model": "content.bohemka",
+        "pk": 6,
+        "fields": {
+            "nazev": "Šála Bohemians",
+            "cena": "399",
+            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/2136-sala%20bohemians%201.png",
+            "odkaz": "https://www.fanshopbohemians.cz/saly_c10024453670205/sala-bohemians_p2136",
+            "category": 2,
+            "type": [4, 11]
+        }
     },
     {
-      "název": "Klokan Plyšový v Dresíku 25cm",
-      "cena": "499 Kč",
-      "obrázek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5612-klokan%20plysovy%20v%20dresu.png",
-      "odkaz": "https://www.fanshopbohemians.cz/doplnky-dle-tema_c35433480192033/domov_c35433480192034/klokan-plysovy-v-dresiku-25cm_p5612"
+        "model": "content.bohemka",
+        "pk": 7,
+        "fields": {
+            "nazev": "Bunda College Černá Bohemians",
+            "cena": "1399",
+            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5889-bunda%20panska%20collage.png",
+            "odkaz": "https://www.fanshopbohemians.cz/panska-kolekce_c10024453669018/panske-mikiny_c35416300323555/bunda-college-cerna-bohemians_p5889",
+            "category": 2,
+            "type": [5, 10]
+        }
     },
     {
-      "název": "Kšiltovka Dospělá Vintage Bohemians Praha 1905",
-      "cena": "499 Kč",
-      "obrázek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5726-ksiltovka%20vintage%20bohemians.png",
-      "odkaz": "https://www.fanshopbohemians.cz/cepice_c10024453670124/ksiltovky_c10024453670175/ksiltovka-dospela-vintage-bohemians-praha-1905_p5726"
+        "model": "content.bohemka",
+        "pk": 8,
+        "fields": {
+            "nazev": "Cyklodres Svislé Pruhy Bohemians Praha 1905",
+            "cena": "1799",
+            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5616-cyklodres%20svisle%20pruhy%20zeleny%20predni.png",
+            "odkaz": "https://www.fanshopbohemians.cz/dresy-a-fotbalova-vybava_c10024453668866/cyklodres-svisle-pruhy-bohemians-praha-1905_p5616",
+            "category": 2,
+            "type": [1, 6]
+        }
     },
     {
-      "název": "Šála ČKD",
-      "cena": "399 Kč",
-      "obrázek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/4176-sala%20ckd%201.png",
-      "odkaz": "https://www.fanshopbohemians.cz/saly_c10024453670205/sala-ckd_p4176"
+        "model": "content.bohemka",
+        "pk": 9,
+        "fields": {
+            "nazev": "Klokan Plyšový v Dresíku 25cm",
+            "cena": "499",
+            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5612-klokan%20plysovy%20v%20dresu.png",
+            "odkaz": "https://www.fanshopbohemians.cz/doplnky-dle-tema_c35433480192033/domov_c35433480192034/klokan-plysovy-v-dresiku-25cm_p5612",
+            "category": 2,
+            "type": [7, 12]
+        }
     },
     {
-      "název": "Kulich AFK Vršovice Zelený",
-      "cena": "349 Kč",
-      "obrázek": "https://www.fanshopbohemians.cz/pictures/B1905/19/2000000325/5276_BO.CEPAFK1.JPG",
-      "odkaz": "https://www.fanshopbohemians.cz/cepice_c10024453670124/kulich-afk-vrsovice-zeleny_p5276"
+        "model": "content.bohemka",
+        "pk": 10,
+        "fields": {
+            "nazev": "Kšiltovka Dospělá Vintage Bohemians Praha 1905",
+            "cena": "499",
+            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5726-ksiltovka%20vintage%20bohemians.png",
+            "odkaz": "https://www.fanshopbohemians.cz/cepice_c10024453670124/ksiltovky_c10024453670175/ksiltovka-dospela-vintage-bohemians-praha-1905_p5726",
+            "category": 2,
+            "type": [8, 10, 11]
+        }
     },
     {
-      "název": "Pamětní list ve formě bankovky - Antonín Panenka 75 let",
-      "cena": "2000 Kč",
-      "obrázek": "https://www.fanshopbohemians.cz/pictures/B1905/19/2000000325/5504_OBAL.JPG",
-      "odkaz": "https://www.fanshopbohemians.cz/antonin-panenka_c32104880709024/pametni-list-ve-forme-bankovky-antonin-panenka-75-let_p5504"
+        "model": "content.bohemka",
+        "pk": 11,
+        "fields": {
+            "nazev": "Šála ČKD",
+            "cena": "399",
+            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/4176-sala%20ckd%201.png",
+            "odkaz": "https://www.fanshopbohemians.cz/saly_c10024453670205/sala-ckd_p4176",
+            "category": 2,
+            "type": [4, 11]
+        }
     },
     {
-      "název": "Box svačinový Bohemians",
-      "cena": "99 Kč",
-      "obrázek": "https://www.fanshopbohemians.cz/pictures/B1905/19/2000000326/4558_DSC00050%20(1).JPEG",
-      "odkaz": "https://www.fanshopbohemians.cz/doplnky-dle-tema_c35433480192033/skola_c35433480192035/box-svacinovy-bohemians_p4558"
+        "model": "content.bohemka",
+        "pk": 12,
+        "fields": {
+            "nazev": "Kulich AFK Vršovice Zelený",
+            "cena": "349",
+            "obrazek": "https://www.fanshopbohemians.cz/pictures/B1905/19/2000000325/5276_BO.CEPAFK1.JPG",
+            "odkaz": "https://www.fanshopbohemians.cz/cepice_c10024453670124/kulich-afk-vrsovice-zeleny_p5276",
+            "category": 2,
+            "type": [9, 10, 11]
+        }
     },
     {
-      "název": "Držák SPZ Bílý Bohemians 1905",
-      "cena": "119 Kč",
-      "obrázek": "https://www.fanshopbohemians.cz/pictures/B1905/19/2000000326/1372_BO.DB037.JPG",
-      "odkaz": "https://www.fanshopbohemians.cz/doplnky-dle-tema_c35433480192033/auto-moto_c35433480192037/drzak-spz-bily-bohemians-1905_p1372"
+        "model": "content.bohemka",
+        "pk": 13,
+        "fields": {
+            "nazev": "Pamětní list ve formě bankovky - Antonín Panenka 75 let",
+            "cena": "2000",
+            "obrazek": "https://www.fanshopbohemians.cz/pictures/B1905/19/2000000325/5504_OBAL.JPG",
+            "odkaz": "https://www.fanshopbohemians.cz/antonin-panenka_c32104880709024/pametni-list-ve-forme-bankovky-antonin-panenka-75-let_p5504",
+            "category": 2,
+            "type": [11]
+        }
     },
     {
-      "název": "Ponožky Klasické Malí Klokani Zelené",
-      "cena": "129 Kč",
-      "obrázek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5764-ponozky%20zelene%20nahled.png",
-      "odkaz": "https://www.fanshopbohemians.cz/damska-kolekce_c10024453669536/damske-ostatni_c35416300323563/ponozky-klasicke-mali-klokani-zelene_p5764"
+        "model": "content.bohemka",
+        "pk": 14,
+        "fields": {
+            "nazev": "Box svačinový Bohemians",
+            "cena": "99",
+            "obrazek": "https://www.fanshopbohemians.cz/pictures/B1905/19/2000000326/4558_DSC00050%20(1).JPEG",
+            "odkaz": "https://www.fanshopbohemians.cz/doplnky-dle-tema_c35433480192033/skola_c35433480192035/box-svacinovy-bohemians_p4558",
+            "category": 2,
+            "type": [11]
+        }
+    },
+    {
+        "model": "content.bohemka",
+        "pk": 15,
+        "fields": {
+            "nazev": "Držák SPZ Bílý Bohemians 1905",
+            "cena": "119",
+            "obrazek": "https://www.fanshopbohemians.cz/pictures/B1905/19/2000000326/1372_BO.DB037.JPG",
+            "odkaz": "https://www.fanshopbohemians.cz/doplnky-dle-tema_c35433480192033/auto-moto_c35433480192037/drzak-spz-bily-bohemians-1905_p1372",
+            "category": 2,
+            "type": [11]
+        }
+    },
+    {
+        "model": "content.bohemka",
+        "pk": 16,
+        "fields": {
+            "nazev": "Ponožky Klasické Malí Klokani Zelené",
+            "cena": "129",
+            "obrazek": "https://www.fanshopbohemians.cz/pictures/b1905/19/2000000325/5764-ponozky%20zelene%20nahled.png",
+            "odkaz": "https://www.fanshopbohemians.cz/damska-kolekce_c10024453669536/damske-ostatni_c35416300323563/ponozky-klasicke-mali-klokani-zelene_p5764",
+            "category": 2,
+            "type": [10]
+        }
+    },
+    {
+        "model": "content.type",
+        "pk": 1,
+        "fields": {
+            "nazev": "Sportovní oblečení",
+            "popis": "Sportovní oblečení Bohemians Praha 1905 zahrnuje dresy, cyklodresy a další sportovní vybavení pro fanoušky."
+        }
+    }, 
+    {
+        "model": "content.type",
+        "pk": 2,
+        "fields": {
+            "nazev": "Dres",
+            "popis": "Dres je sportovní oblečení, které se nosí při sportovních aktivitách. Dresy Bohemians Praha 1905 jsou zelené a bílé barvy."
+        }
+    }, 
+    {
+        "model": "content.type",
+        "pk": 3,
+        "fields": {
+            "nazev": "Tričko",
+            "popis": "Tričko je oblíbeným oblečením pro každodenní nošení. Trička Bohemians Praha 1905 jsou dostupná v různých barvách a designech."
+        }
+    }, 
+    {
+        "model": "content.type",
+        "pk": 4,
+        "fields": {
+            "nazev": "Šála",
+            "popis": "Šála je oblíbeným doplňkem pro zahřátí krku. Šála Bohemians Praha 1905 je zelená a bílá."
+        }
+    }, 
+    {
+        "model": "content.type",
+        "pk": 5,
+        "fields": {
+            "nazev": "Bunda",
+            "popis": "Bunda je teplým oblečením, které se nosí v chladném počasí. Bunda College Černá Bohemians je vhodná pro fanoušky Bohemians Praha 1905."
+        }
+    }, 
+    {
+        "model": "content.type",
+        "pk": 6,
+        "fields": {
+            "nazev": "Cyklodres",
+            "popis": "Cyklodres je sportovní oblečení pro cyklisty. Cyklodres Svislé Pruhy Bohemians Praha 1905 je zelený s bílými pruhy."
+        }
+    }, 
+    {
+        "model": "content.type",
+        "pk": 7,
+        "fields": {
+            "nazev": "Plyšák",
+            "popis": "Plyšák je oblíbenou hračkou pro děti i dospělé. Klokan Plyšový v Dresíku 25cm je plyšový klokan v dresu Bohemians Praha 1905."
+        }
+    }, 
+    {
+        "model": "content.type",
+        "pk": 8,
+        "fields": {
+            "nazev": "Kšiltovka",
+            "popis": "Kšiltovka je oblíbeným doplňkem pro ochranu hlavy před sluncem. Kšiltovka Dospělá Vintage Bohemians Praha 1905 je zelená s logem Bohemians."
+        }
+    }, 
+    {
+        "model": "content.type",
+        "pk": 9,
+        "fields": {
+            "nazev": "Kulich",
+            "popis": "Kulich je teplým doplňkem pro ochranu hlavy v zimním období. Kulich AFK Vršovice Zelený je zelený s logem AFK Vršovice."
     }
-  ]
-  
+    },
+    {
+        "model": "content.type",
+        "pk": 10,
+        "fields": {
+            "nazev": "Oblečení",
+            "popis": "Oblečení Bohemians Praha 1905 zahrnuje dresy, trička, bundy a další oblečení pro fanoušky."
+        }
+    }, 
+    {
+        "model": "content.type",
+        "pk": 11,
+        "fields": {
+            "nazev": "Doplňky",
+            "popis": "Doplňky Bohemians Praha 1905 zahrnují šály, kšiltovky, kulichy a další doplňky pro fanoušky."
+        }
+    }, 
+    {
+        "model": "content.type",
+        "pk": 12,
+        "fields": {
+            "nazev": "Hračky",
+            "popis": "Hračky Bohemians Praha 1905 zahrnují plyšáky a další hračky pro děti i dospělé."
+        }
+    }, 
+    {
+        "model": "content.category",
+        "pk": 1,
+        "fields": {
+            "nazev": "Puma",
+            "popis": "Puma je známá značka sportovního oblečení a obuvi. Dresy Bohemians Praha 1905 jsou vyrobeny ve spolupráci se značkou Puma."
+        }
+    },
+    {
+        "model": "content.category",
+        "pk": 2,
+        "fields": {
+            "nazev": "Bohemians",
+            "popis": "Všechny produkty Bohemians Praha 1905 jsou navrženy s ohledem na fanoušky a jejich potřeby. Fanoušci mohou najít širokou škálu produktů, které reprezentují jejich oblíbený klub."
+        }
+    }
+
+]

@@ -16,9 +16,7 @@ class Type(models.Model):
 
 class Bohemka(models.Model):
     nazev = models.CharField(max_length=100)
-    cena = models.DecimalField(max_digits=10, decimal_places=2)
     obrazek = models.URLField()
-    odkaz = models.URLField()
     category = models.ForeignKey(Category, related_name='articles', on_delete=models.CASCADE)
     type = models.ManyToManyField(Type, related_name='articles')
 
